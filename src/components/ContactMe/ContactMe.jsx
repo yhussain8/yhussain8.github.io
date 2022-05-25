@@ -1,17 +1,12 @@
 import React from 'react'
 
-import { ReactComponent as PhoneIcon } from './icons/phone-white.svg';
-import { ReactComponent as EmailIcon } from './icons/email-white.svg';
+import { ReactComponent as PhoneIcon } from './icons/phone.svg';
+import { ReactComponent as EmailIcon } from './icons/email.svg';
 import { ReactComponent as LocationIcon } from './icons/globe.svg';
 import { ReactComponent as LinkedInIcon } from './icons/linkedin.svg';
 import { ReactComponent as GitHubIcon } from './icons/github.svg';
 
 class ContactMe extends React.Component {
-    
-    // state here
-
-    // functions here
-
     render() {
         return (
             <div className='ContactMe slideText'>
@@ -31,10 +26,10 @@ class ContactMe extends React.Component {
                         </div>
                         <div className='contactInfoItem'>Toronto, ON</div>
                         <div className='contactInfoItem'>
-                            <a href='https://www.linkedin.com/in/yhussain8/' target='_blank'>linkedin.com/in/yhussain8</a>
+                            <a href='https://www.linkedin.com/in/yhussain8/'>linkedin.com/in/yhussain8</a>
                         </div>
                         <div className='contactInfoItem'>
-                            <a href='https://github.com/yhussain8' target='_blank'>github.com/yhussain8</a>
+                            <a href='https://github.com/yhussain8'>github.com/yhussain8</a>
                         </div>
                     </div>
                 </div>

@@ -1,11 +1,6 @@
 import React from 'react'
 
 class HeroBanner extends React.Component {
-    
-    // state here
-
-    // functions here
-
     render() {
         return (
             <div className='HeroBanner slideText'>
