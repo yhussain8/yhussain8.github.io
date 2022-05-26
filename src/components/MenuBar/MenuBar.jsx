@@ -15,7 +15,7 @@ class MenuBar extends React.Component {
                     <Link className="link menuText" to='/contact'>contact</Link>
                 </div>
                 <div className='resumeSection'>
-                    <Link className="link menuText resumeButton" to={ResumePDF}>resume</Link>
+                    <a className='link menuText resumeButton' href={ResumePDF} target="_blank" rel="noreferrer">resume</a>
                 </div>
             </div>
         )
