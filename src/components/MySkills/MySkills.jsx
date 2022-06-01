@@ -3,87 +3,87 @@ import React from 'react'
 class MySkills extends React.Component {
     render() {
         return (
-            <div className='MySkills slideText'>
-                <div className='title center'>my technical skills</div>
-                <div className='allSkillCards'>
-                    <div className='skillCard'>
-                        <div className='subTitle'>
+            <div className='MySkills Page'>
+                <div className='PageTitle'>my technical skills</div>
+                <div className='SkillList'>
+                    <div className='SkillCard'>
+                        <div className='SkillCategory'>
                             programming languages
                         </div>
-                        <div className='bulletList'>
-                            <div className='bulletItem'>JavaScript</div>
-                            <div className='bulletItem'>Python</div>
-                            <div className='bulletItem'>SQL</div>
+                        <div className='BulletList'>
+                            <div className='BulletItem'>JavaScript</div>
+                            <div className='BulletItem'>Python</div>
+                            <div className='BulletItem'>SQL</div>
                         </div>
                     </div>
-                    <div className='skillCard'>
-                        <div className='subTitle'>
+                    <div className='SkillCard'>
+                        <div className='SkillCategory'>
                             databases
                         </div>
-                        <div className='bulletList'>
-                            <div className='bulletItem'>PostgreSQL</div>
-                            <div className='bulletItem'>MySQL</div>
-                            <div className='bulletItem'>MongoDB</div>
+                        <div className='BulletList'>
+                            <div className='BulletItem'>PostgreSQL</div>
+                            <div className='BulletItem'>MySQL</div>
+                            <div className='BulletItem'>MongoDB</div>
                         </div>
                     </div>
-                    <div className='skillCard'>
-                        <div className='subTitle'>
+                    <div className='SkillCard'>
+                        <div className='SkillCategory'>
                             front-end web tech
                         </div>
-                        <div className='bulletList'>
-                            <div className='bulletItem'>ReactJS</div>
-                            <div className='bulletItem'>HTML</div>
-                            <div className='bulletItem'>CSS</div>
+                        <div className='BulletList'>
+                            <div className='BulletItem'>ReactJS</div>
+                            <div className='BulletItem'>HTML</div>
+                            <div className='BulletItem'>CSS</div>
                         </div>
                     </div>
-                    <div className='skillCard'>
-                        <div className='subTitle'>
+                    <div className='SkillCard'>
+                        <div className='SkillCategory'>
                             back-end web tech
                         </div>
-                        <div className='bulletList'>
-                            <div className='bulletItem'>NodeJS</div>
-                            <div className='bulletItem'>Express</div>
-                            <div className='bulletItem'>Django</div>
+                        <div className='BulletList'>
+                            <div className='BulletItem'>NodeJS</div>
+                            <div className='BulletItem'>Express</div>
+                            <div className='BulletItem'>Django</div>
                         </div>
                     </div>
-                    <div className='skillCard'>
-                        <div className='subTitle'>
+                    <div className='SkillCard'>
+                        <div className='SkillCategory'>
                             data science
                         </div>
-                        <div className='bulletList'>
-                            <div className='bulletItem'>SciPy</div>
-                            <div className='bulletItem'>Scikit-learn</div>
+                        <div className='BulletList'>
+                            <div className='BulletItem'>SciPy</div>
+                            <div className='BulletItem'>Scikit-learn</div>
                         </div>
                     </div>
-                    <div className='skillCard'>
-                        <div className='subTitle'>
+                    <div className='SkillCard'>
+                        <div className='SkillCategory'>
                             web scraping & automation
                         </div>
-                        <div className='bulletList'>
-                            <div className='bulletItem'>Beautiful Soup</div>
-                            <div className='bulletItem'>Selenium</div>
+                        <div className='BulletList'>
+                            <div className='BulletItem'>Beautiful Soup</div>
+                            <div className='BulletItem'>Selenium</div>
                         </div>
                     </div>
-                    <div className='skillCard'>
-                        <div className='subTitle'>
+                    <div className='SkillCard'>
+                        <div className='SkillCategory'>
                             data analysis
                         </div>
-                        <div className='bulletList'>
-                            <div className='bulletItem'>NumPy</div>
-                            <div className='bulletItem'>Pandas</div>
-                            <div className='bulletItem'>Matplotlib</div>
-                            <div className='bulletItem'>Streamlit</div>
+                        <div className='BulletList'>
+                            <div className='BulletItem'>NumPy</div>
+                            <div className='BulletItem'>Pandas</div>
+                            <div className='BulletItem'>Matplotlib</div>
+                            <div className='BulletItem'>Streamlit</div>
                         </div>
                     </div>
-                    <div className='skillCard'>
-                        <div className='subTitle'>
+                    <div className='SkillCard'>
+                        <div className='SkillCategory'>
                             data visualization
                         </div>
-                        <div className='bulletList'>
-                            <div className='bulletItem'>Tableau</div>
-                            <div className='bulletItem'>Plotly</div>
-                            <div className='bulletItem'>Bokeh</div>
-                            <div className='bulletItem'>Folium</div>
+                        <div className='BulletList'>
+                            <div className='BulletItem'>Tableau</div>
+                            <div className='BulletItem'>Plotly</div>
+                            <div className='BulletItem'>Bokeh</div>
+                            <div className='BulletItem'>Folium</div>
                         </div>
                     </div>
                 </div>

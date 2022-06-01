@@ -1,21 +1,282 @@
-*, div {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-div {
-  margin: 5px;
-  padding: 5px;
-  /* border: 1px solid black; */
-}
+/* div {
+  border: 1px solid black;
+} */
 
 .App {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.Display {
+  height: 100vh;
+  width: 50ch;
+  display: grid;
+  grid-template-rows: 15% 1fr;
+}
+
+.NavBarWrap {
+  grid-row: 1;
+  position: fixed;
+  width: 50ch;
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.NavBarDesktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.RoutesWrap {
+  grid-row: 2;
+}
+
+.NavBarMobile {
+  display: none;
+}
+
+.Logo {
+  height: 3rem;
+  width: 3rem;
+  filter: invert(75%);
+  margin-right: 1rem;
+}
+
+.Logo:hover {
+  filter:invert(0%);
+}
+
+.LinksWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NavLink {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.NavLink, .ResumeButton {
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavLink:hover {
+  text-decoration: underline;
+}
+
+.ResumeButton {
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  padding: 0.4rem;
+}
+
+.ResumeButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.Hello {
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  text-align: left;
+  margin: 0;
+  margin-bottom: -1rem;
+}
+
+.BannerTitle {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.BannerText {
+  margin-top: 1rem;
+}
+
+/* .BannerTitle, .BannerText {
+  text-align: justify;
+} */
+
+.Screen {
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.PageTitle {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.SkillCategory {
+  font-weight: 600;
+  height: 3.5rem;
+}
+
+.SkillCard {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px dashed black;
+  border-right: 1px dashed black;
+  text-align: center;
+  border-radius: 25px;
+  padding: 0.5rem;
+}
+
+.SkillList {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.ProjectCard {
+  text-align: center;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.ProjectTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ProjectLinks {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ProjectLink {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.ProjectDescription {
+  text-align: left;
+}
+
+a {
+  color: black;
+}
+
+.ContactList {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ContactInfo {
+  width: 20ch;
+}
+
+.ContactIcon > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.ContactLink {
+  text-decoration: none;
+}
+
+.ContactLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+
+  .Display {
+    width: 90vw;
+  }
+
+  .NavBarWrap {
+    width: 90vw;
+  }
+
+  .NavBarDesktop {
+    display: none;
+  }
+
+  .NavBarMobile {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .NavMenu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .NavBarIcon {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .Logo {
+    filter: invert(0%);
+  }
+
+  .NavDropDown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .MobileLink {
+    margin: 0.5rem 0;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .Hello {
+    font-size: 5rem;
+  }
+
+  .Screen {
+    width: 80%;
+  }
+}
+
+
+/* 
+.NavBar {
+  display: none;
+} */
+
+/*
 .LeftPane, .RightPane {
   display: flex;
   align-items: center;
@@ -259,3 +520,4 @@ a:hover {
   margin-top: 20px;
   padding: 0;
 }
+*/

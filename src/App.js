@@ -1,34 +1,30 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
+import { Route, Routes } from 'react-router-dom'
 
-import LeftPane from './components/LeftPane/LeftPane.jsx';
-import RightPane from './components/RightPane/RightPane.jsx';
+import './App.css'
 
-import MenuBar from './components/MenuBar/MenuBar.jsx';
-import HeroBanner from './components/HeroBanner/HeroBanner.jsx';
-import MySkills from './components/MySkills/MySkills.jsx';
-import MyProjects from './components/MyProjects/MyProjects.jsx';
-import ContactMe from './components/ContactMe/ContactMe.jsx';
+import NavBar from './components/NavBar/NavBar.jsx'
+import FrontBanner from './components/FrontBanner/FrontBanner.jsx'
+import MySkills from './components/MySkills/MySkills.jsx'
+import MyProjects from './components/MyProjects/MyProjects.jsx'
+import ContactMe from './components/ContactMe/ContactMe.jsx'
 
 function App() {
   return (
     <div className="App">
-      <LeftPane />
-      <div className='MidPane'>
-        <MenuBar />
-        <div className='HomePage'>
+      <div className='Display'>
+        <NavBar />
+        <div className='RoutesWrap'>
           <Routes>
-              <Route path='/' element={<HeroBanner />} />
+              <Route path='/' element={<FrontBanner />} />
               <Route path='/skills' element={<MySkills />} />
               <Route path='/projects' element={<MyProjects />} />
               <Route path='/contact' element={<ContactMe />} />
-              <Route path='*' element={<HeroBanner />} />
+              <Route path='*' element={<FrontBanner />} />
           </Routes>
         </div>
       </div>
-      <RightPane />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
