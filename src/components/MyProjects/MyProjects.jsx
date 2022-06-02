@@ -40,7 +40,7 @@ class MyProjects extends React.Component {
                             </div>
                         </div>
                         <div className='ProjectDescription'>
-                            With this project I wanted to recreate the two player Checkers board game as a static web application with a simple yet intuitive design using HTML, CSS, and Javascript. This was my introduction to the DOM (Document Object Model) interface and the MVC (Model-View-Controller) software design pattern. 
+                            With this project I wanted to recreate the two player Checkers board game as a static web application with a simple yet intuitive design using HTML, CSS, and Javascript. This was my introduction to the DOM (Document Object Model) interface and the MVC (Model View Controller) software design pattern. 
                             <br/><br/>
                             The most interesting challenge in implementing the game logic was forcing the player to make an attack move when one was available as this involved scanning the entire board for a list of all possible moves and forcing the player to only be able to select within a limited range of valid moves. The final version follows the complete set of official rules for American Checkers and prevents the user from making any illegal moves.
                         </div>

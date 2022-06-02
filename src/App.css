@@ -16,10 +16,14 @@
   grid-template-rows: 15% 1fr;
 }
 
+.Page {
+  padding-bottom: 1rem;
+}
+
 .NavBarWrap {
   grid-row: 1;
   position: fixed;
-  width: 50ch;
+  width: 100%;
   background-color: white;
   padding-top: 1.25rem;
   padding-bottom: 1rem;
