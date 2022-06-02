@@ -66,7 +66,7 @@ class MyProjects extends React.Component {
                         <div className='ProjectDescription'>
                             Tiger Pins is a full-stack web application that allows users to create notes, known as pins, tagged to locations they’ve visited. Users can sign up for a user account and log in to save pins to their profile. They are then able to visually explore their pins on a map and share them with other users.
                             <br/><br/>
-                            The app was a collaboration between two of my fellow software engineering bootcamp colleagues. We used Django for the back-end and used Materialize for our mobile-first front-end framework. We also used the Google Maps API to convert user addresses into latitude and longitude coordinates and to power the map display for our user interface. We also relied on Trello for project and task management and took an agile approach with daily stand ups.
+                            The app was a collaboration between two of my fellow software engineering bootcamp colleagues. We used Django for the back-end and used Materialize for our mobile-first front-end framework. We used the Google Maps API to convert user addresses into latitude and longitude coordinates and to power the map display for our user interface. We relied on Trello for project and task management and took an agile approach with daily stand ups.
                         </div>
                         <div className='Screenshot'>
                             <img className='Screen' src={tigerPinsPic} alt="Tiger Pins app screenshot" />
@@ -119,7 +119,7 @@ class MyProjects extends React.Component {
                             </div>
                         </div>
                         <div className='ProjectDescription'>
-                            This website was built using React and hosted on GitHub. My use of React is a bit overkill for this current version, but I hope that it will serve as a good sandbox for future ideas. I am currently working to update the design from the ground up to be more responsive and mobile-friendly.
+                            This website was built using React and hosted via GitHub pages. It was designed with a single responsive break point at 700 px to be mobile friendly.
                         </div>
                     </div>
                 </div>
