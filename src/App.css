@@ -23,7 +23,7 @@
 .NavBarWrap {
   grid-row: 1;
   position: fixed;
-  width: 100%;
+  width: 50ch;
   background-color: white;
   padding-top: 1.25rem;
   padding-bottom: 1rem;
